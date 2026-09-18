@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    place-content: center;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    background-color: darkslategray;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+/* Layout Content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2, .card h3 {
+    color: lightskyblue;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 8px;
+}
+
+.card a {
+    color: lightskyblue;
+}
+
+#HonorableMention ul {
+    margin-left: 20px;
+    color: lightgray;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: gray;
+    font-size: 15px;
+}
